@@ -1,0 +1,98 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    color: var(--color-font);
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-primary);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 4fr 1fr;
+    grid-template-areas: 
+    "derecha izquierda"
+    "footer footer"
+    ;
+}
+
+.sec__derecha{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: derecha;
+}
+
+.sec__derechacont{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    position: relative;
+}
+
+.sec__derechacont h1{
+    font-size: 3.9vw;
+}
+
+.sec__derechacont h1 span{
+    color:  var(--color-secundary);
+}
+
+.sec__izquierda{
+    grid-area: izquierda;
+}
+
+footer{
+    grid-area: footer;
+}
+
+.sec__izquierda img{
+    width: 100%;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7{
+    position: absolute;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8{
+    width: 15%;
+}
+
+.img8{
+    opacity: 0;
+}
+
+.img1{
+    opacity: 1;
+}
+
+.img2{
+    left: 12%;
+}
+
+.img3{
+    left: 24%;
+}
+
+.img4{
+    left: 36%;
+}
+
+.img5{
+    left: 48%;
+}
+
+.img6{
+    left: 60%;
+}
+
+.img7{
+    left: 72%;
+}
+
