@@ -37,11 +37,25 @@ body{
 }
 
 .sec__derechacont h1{
-    font-size: 3.9vw;
+    font-size: 5.1vw;
 }
 
 .sec__derechacont h1 span{
     color:  var(--color-secundary);
+}
+
+.sec__derechacont p{
+    font-size: 1.6vw;
+    font-weight: lighter;
+}
+
+.sec__derechacont button{
+    background-color: var(--color-secundary);
+    width: fit-content;
+    font-size: 1.6vw;
+    border: 0;
+    padding: 1vw 1.5vw;
+    border-radius: 7vw;
 }
 
 .sec__izquierda{
